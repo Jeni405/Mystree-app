@@ -48,7 +48,7 @@ export default function MyStories() {
         <p className='mt-20 md:mt-28 mb-6 text-3xl font-bold text-center'>My Stories</p>
     </div>
   {stories.length === 0 ? (
-        <p className="text-gray-500 text-center">You haven't written any stories yet.</p>
+        <p className="text-gray-500 text-center">You haven&apos;t written any stories yet.</p>
       ) : (
   <div className="space-y-4 m-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"> 
     {stories.map((story) => (

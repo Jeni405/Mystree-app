@@ -39,7 +39,7 @@ export default function WritePage() {
     } else {
       setUser(JSON.parse(storedUser))
     }
-  }, [])
+  }, [router])
 
 
 

@@ -52,7 +52,7 @@ export default function ProfilePage() {
         </div>
       <h2 className="text-2xl font-semibold mb-4">📝 Your Stories</h2>
       {stories.length === 0 ? (
-        <p className="text-gray-500">You haven't written any stories yet.</p>
+        <p className="text-gray-500">You haven&apos;t written any stories yet.</p>
       ) : (
 <div className="space-y-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
   {stories.map((story) => (
