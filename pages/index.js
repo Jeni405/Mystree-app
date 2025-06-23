@@ -89,7 +89,7 @@ export default function Home({ stories }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('http://localhost:3000/api/stories')
+  const res = await fetch('https://mystree-app-o778.vercel.app/api/stories')
   const json = await res.json()
 
   return {
